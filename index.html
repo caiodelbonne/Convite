@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convite</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <div class="grid">
+        <div class="grid-img">
+            <img class="logo" src="img/Logo.svg" alt="Logo">
+            <p class="grid-title">Festivite</p>
+            <p class="grid-subt">Crie um convite digital para o seu evento</p>
+        </div>
+        <div class="grid-form">
+            <h1>Crie seu convite</h1>
+            <h2>Sobre o evento</h2>
+            <form>
+                <label for="titulo">Titulo</label>
+                <input type="text">
+                
+                <div class="form-date">
+                    <label for="inicio">inicio</label>
+                    <input type="date">
+
+                    <label for="fim">fim</label>
+                    <input type="date">
+                </div>
+
+                <div class="form-tipo">
+                    <p>Tipo</p>
+                    <label>
+                        <input type="radio" name="tipo" value="presencial" checked>
+                        <div class="opcao">
+                          <img src="./img/icon/building-2.svg" alt="Ícone presencial">
+                          <span>Presencial</span>
+                        </div>
+                      </label>
+                      <label>
+                        <input type="radio" name="tipo" value="online">
+                        <div class="opcao">
+                          <img src="./img/icon/video.svg" alt="Ícone online">
+                          <span>Online</span>
+                        </div>
+                      </label>
+                </div>
+
+            </form>
+        </div>
+    </div>
 </body>
 </html>

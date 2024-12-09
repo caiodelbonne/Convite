@@ -1,0 +1,27 @@
+.grid{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.grid-title {
+    color: var(--danger);
+    font-size: 40px;
+}
+.grid-subt{
+    font-size: 22px;
+}
+.logo  {
+    width: 46px;
+    height: 48px;
+}
+.grid-img {
+    background-image: url("../img/Background.png");
+    text-align: left;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height:728px ;
+    padding-left: 30px;
+    gap: 4px;
+}

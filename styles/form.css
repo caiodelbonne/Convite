@@ -1,0 +1,7 @@
+
+.grid-form {
+    display: grid;
+    grid-template-columns:repeat(10fr,1fr ) ;
+    margin: 80px 0px 80px 0px ;
+    background-color: red;
+}
