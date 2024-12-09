@@ -18,19 +18,22 @@
             <h2>Sobre o evento</h2>
             <form>
                 <label for="titulo">Titulo</label>
-                <input type="text">
+                <input type="text" id="titulo" placeholder="Nome do evento">
                 
                 <div class="form-date">
-                    <label for="inicio">inicio</label>
-                    <input type="date">
-
-                    <label for="fim">fim</label>
-                    <input type="date">
+                    <div>
+                        <label for="inicio">Início</label>
+                        <input type="datetime-local" id="inicio">
+                    </div>
+                    <div>
+                        <label for="fim">Fim</label>
+                        <input type="datetime-local" id="fim">
+                    </div>
                 </div>
 
                 <div class="form-tipo">
-                    <p>Tipo</p>
                     <label>
+                        <p>Tipo</p>   
                         <input type="radio" name="tipo" value="presencial" checked>
                         <div class="opcao">
                           <img src="./img/icon/building-2.svg" alt="Ícone presencial">
