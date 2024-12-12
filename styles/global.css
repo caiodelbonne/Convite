@@ -25,3 +25,9 @@
 
   --input-stroke:#363B40;
 }
+
+.grid{
+  display: grid;
+  grid-template-columns: 25rem 20px 51rem;
+  margin: 20px 2px;
+}

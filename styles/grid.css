@@ -1,27 +1,65 @@
-.grid{
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-.grid-title {
-    color: var(--danger);
-    font-size: 40px;
-}
-.grid-subt{
-    font-size: 22px;
-}
-.logo  {
-    width: 46px;
-    height: 48px;
-}
+/* Lado esquerdo - Imagem e texto */
 .grid-img {
+    grid-column: 1 / 2;
+    margin-left: 20px;
+    margin-top: 20px;
     background-image: url("../img/Background.png");
     text-align: left;
     border-radius: 12px;
     background-size: cover;
     background-position: center;
     width: 400px;
-    height:728px ;
+    height: 728px;
     padding-left: 30px;
     gap: 4px;
+    box-sizing: border-box;
+  }
+
+/* Formulário no lado direito */
+.formulario {
+    grid-column: 3 / 4; 
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Formulário geral */
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.tipo {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 16px;
+}
+ .form-tipo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 18px;
+    color: #555;
 }
