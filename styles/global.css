@@ -35,7 +35,8 @@
 .grid{
   display: grid;
   /* grid-template-columns: 25rem 20px 51rem; */
-  grid-template-columns: 25rem  auto;
-  margin: 20px 2px;
+  grid-template-columns: 25rem  1.5fr;
+  align-items: start;
+  margin: 0px auto;
   gap: 30px;
 }

@@ -17,10 +17,13 @@
 
 /* Formulário no lado direito */
 .formulario {
+  display: grid;
+  grid-column: 2 / 3;
   width: 820px;
   /* display: flex; */
   margin-left: 130px;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 form {
@@ -33,9 +36,10 @@ form {
 }
 
 .form-row {
-  width: 560px;
   display: flex;
   justify-content: space-between;
+  /* width: 560px; */
+  width: 100%;
   gap: 16px;
   margin-top: 20px;
   /* width: 272px; */
@@ -43,13 +47,26 @@ form {
     width: 272px;
   }
 }
+.formulario form .form-row {
+  flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte se necessário */
+}
 
 .form-tipo {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
-
+textarea{
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid var(--input-stroke);
+  border-radius: 8px;
+  background-color: var(--shape-button);
+  color: var(--text-body);
+  width: 100%; 
+  height: 150px;
+  resize: vertical;
+}
 input,
 select {
   padding: 12px;
