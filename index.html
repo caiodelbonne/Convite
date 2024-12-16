@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="grid">
+
+        <div class="grid-img">
+            <img class="logo" src="img/Logo.svg" alt="Logo">
+            <p class="grid-title">Festivite</p>
+            <p class="grid-subt">Crie um convite digital para o seu evento</p>
+        </div>
+
+        <div class="formulario">
+
+            <div class="form-title">
+                <h1>Crie seu convite</h1>
+                <p>Sobre o evento</p>
+            </div>
+
+            <form>
+                <label for="titulo">Título</label>
+                <input type="text" id="titulo" placeholder="Nome do evento">
+                <div class="form-row">
+                    <div class="form-tipo">
+                        <label for="Inicio">Inicio</label>
+                        <input type="datetime-local" placeholder="DD/MM/AAAA">
+                    </div>
+                    <div class="form-tipo">
+                        <label for="Fim">Fim</label>
+                        <input type="datetime-local" placeholder="DD/MM/AAAA">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-tipo">
+                            <label for="tipo">Tipo</label>
+                            <select id="tipo">
+                                <option value="Presencial">Presencial</option>
+                                <option value="Online">Online</option>
+                            </select>
+                        </div>
+                        <div class="form-tipo">
+                            <label for="local">Local</label>
+                            <input type="text" id="local" placeholder="Link ou endereço">
+                        </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

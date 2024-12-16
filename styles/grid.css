@@ -1,66 +1,79 @@
 /* Lado esquerdo - Imagem e texto */
 .grid-img {
-    grid-column: 1 / 2;
-    margin-left: 20px;
-    margin-top: 20px;
-    background-image: url("../img/Background.png");
-    text-align: left;
-    border-radius: 12px;
-    background-size: cover;
-    background-position: center;
-    width: 400px;
-    height: 728px;
-    padding-left: 30px;
-    gap: 4px;
-    box-sizing: border-box;
-  }
+  grid-column: 1 / 2;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-image: url("../img/Background.png");
+  text-align: left;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 728px;
+  padding-left: 30px;
+  gap: 4px;
+  box-sizing: border-box;
+}
 
 /* Formulário no lado direito */
 .formulario {
-    grid-column: 3 / 4; 
-    padding: 20px;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-left: auto;
-    margin-right: auto;
-
+  width: 820px;
+  /* display: flex; */
+  margin-left: 130px;
+  padding: 20px;
 }
 
-/* Formulário geral */
 form {
-  display: grid;
-  grid-template-columns: 1fr;
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  width: 560px;
+  gap: 20px;
+}
+
+.form-row {
+  width: 560px;
+  display: flex;
+  justify-content: space-between;
   gap: 16px;
+  margin-top: 20px;
+  /* width: 272px; */
+  & input {
+    width: 272px;
+  }
 }
 
-.tipo {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 16px;
+.form-tipo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
- .form-tipo {
-    margin-top: 29px;
-    display: flex;
-    gap: 8px;
+input,
+select {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid var(--input-stroke);
+  border-radius: 8px;
+  background-color: var(--shape-button);
+  color: var(--text-body);
+  width: 100%;
 }
 
-input {
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 100%;
+
+label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: var(--text-body);
 }
 
 h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
+  font-size: 28px;
+  margin-bottom: 10px;
 }
 
 span {
-    font-size: 18px;
-    color: #555;
+  font-size: 18px;
+  color: #555;
 }
