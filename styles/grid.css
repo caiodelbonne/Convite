@@ -40,9 +40,10 @@ form {
     grid-template-columns: 1fr 1fr; 
     gap: 16px;
 }
+
  .form-tipo {
+    margin-top: 29px;
     display: flex;
-    flex-direction: column;
     gap: 8px;
 }
 
