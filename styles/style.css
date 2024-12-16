@@ -1,6 +1,7 @@
 @import url(global.css);
 @import url(grid.css);
 @import url(personalizacao.css);
+@import url(thema.css);
 
 *{
     margin: 0;
