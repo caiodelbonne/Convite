@@ -1,3 +1,7 @@
+body{
+  overflow: hidden;
+}
+
 :root {
   --brand-light: #59b2ff;
   --brand-mid: #3487cf;
