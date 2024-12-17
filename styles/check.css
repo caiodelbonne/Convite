@@ -1,9 +1,9 @@
 .lista-checkbox {
     display: flex;
-    flex-direction: column; /* Organiza os itens em uma coluna */
-    gap: 12px; /* Espaçamento entre os itens */
+    flex-direction: column; 
+    gap: 12px; 
     margin-top: 16px;
-    align-items: flex-start; /* Alinha os itens à esquerda */
+    align-items: flex-start; 
   }
   
   .checkbox-item {
@@ -14,8 +14,8 @@
   }
   
   .checkbox-item input[type="checkbox"] {
-    appearance: none; /* Remove o estilo padrão do navegador */
-    width: 18px; /* Ajustado para ser menor */
+    appearance: none; 
+    width: 18px; 
     height: 18px;
     border: 1px solid #59B2FF;
     border-radius: 4px;

@@ -43,4 +43,5 @@ body {
   align-items: start;
   margin: 0px auto;
   gap: 30px;
+  overflow-x: hidden;
 }
