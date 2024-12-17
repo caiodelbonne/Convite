@@ -1,7 +1,7 @@
-body{
-  overflow: hidden;
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
-
 :root {
   --brand-light: #59b2ff;
   --brand-mid: #3487cf;
